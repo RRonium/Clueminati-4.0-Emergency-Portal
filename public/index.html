@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clueminati riddle competition dashboard.">
+  <title>Clueminati | Riddle Competition</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Clueminati home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span><strong>Clueminati</strong><small>Riddle competition</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <button class="nav-link is-active" data-view="game" type="button">Challenge</button>
+        <button class="nav-link" data-view="leaderboard" type="button">Leaderboard</button>
+      </nav>
+      <div class="connection-status"><span class="status-dot"></span><span id="connection-label">Ready to play</span></div>
+    </header>
+
+    <main>
+      <section class="entry-screen" id="entry-screen" aria-labelledby="entry-title">
+        <div class="entry-art" aria-hidden="true">
+          <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="entry-glyph">?</span>
+        </div>
+        <div class="entry-copy">
+          <p class="eyebrow">The gates are open</p>
+          <h1 id="entry-title">Think sideways.<br><em>Play together.</em></h1>
+          <p>Bring your sharpest people. Three tiers, one shared score, and a little glory waiting at the end.</p>
+        </div>
+        <form class="entry-form" id="entry-form">
+          <label for="team-name">Team name</label>
+          <input id="team-name" name="teamName" required maxlength="80" placeholder="e.g. The Raven Society">
+          <label for="member-name">Team member name</label>
+          <input id="member-name" name="teamMembersName" required maxlength="120" placeholder="Enter one member name">
+          <button class="primary-button" type="submit">Start challenge <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Your score is saved live as you play.</p>
+        </form>
+      </section>
+
+      <section class="game-view view" id="game-view" hidden aria-labelledby="game-title">
+        <div class="view-heading">
+          <div><p class="eyebrow accent-label">Round in progress</p><h1 id="game-title">Make your move.</h1></div>
+          <div class="team-chip"><span class="team-avatar" id="team-avatar">C</span><span><strong id="active-team-name">Team</strong><small id="active-member-name">Member</small></span></div>
+        </div>
+        <div class="score-strip" aria-label="Team score">
+          <div><span>Round 1</span><strong id="round-1-score">0</strong></div>
+          <div><span>Round 2</span><strong id="round-2-score">0</strong></div>
+          <div><span>Round 3</span><strong id="round-3-score">0</strong></div>
+          <div class="total-score"><span>Total score</span><strong id="total-score">0</strong><small>pts</small></div>
+        </div>
+        <div class="difficulty-row">
+          <div><p class="eyebrow">Choose your risk</p><div class="difficulty-tabs" role="tablist" aria-label="Difficulty">
+            <button class="difficulty-tab is-active easy" data-difficulty="easy" role="tab" aria-selected="true" type="button"><span>Easy</span><small>+30</small></button>
+            <button class="difficulty-tab medium" data-difficulty="medium" role="tab" aria-selected="false" type="button"><span>Medium</span><small>+45</small></button>
+            <button class="difficulty-tab hard" data-difficulty="hard" role="tab" aria-selected="false" type="button"><span>Hard</span><small>+60</small></button>
+          </div></div>
+          <button class="draw-button" id="draw-button" type="button"><span class="draw-icon">✦</span> Lucky draw</button>
+        </div>
+        <article class="riddle-stage" id="riddle-stage" aria-live="polite">
+          <div class="stage-top"><span class="stage-label" id="stage-label">No riddle drawn</span><span class="stage-points" id="stage-points">Choose a tier to begin</span></div>
+          <div class="question-wrap"><span class="question-number" id="question-number">?</span><p id="question-text">The next clue is waiting behind the draw.</p></div>
+          <form class="answer-form" id="answer-form" hidden>
+            <label for="answer-input">Your answer</label>
+            <div class="answer-entry"><input id="answer-input" required autocomplete="off" placeholder="Type your answer"><button class="submit-button" type="submit">Submit <span aria-hidden="true">→</span></button></div>
+          </form>
+          <div class="feedback" id="feedback" role="status" hidden></div>
+        </article>
+      </section>
+
+      <section class="leaderboard-view view" id="leaderboard-view" hidden aria-labelledby="leaderboard-title">
+        <div class="view-heading"><div><p class="eyebrow accent-label">Live standings</p><h1 id="leaderboard-title">The hall of fame.</h1></div><button class="secondary-button" id="download-button" type="button">Download CSV <span aria-hidden="true">↓</span></button></div>
+        <div class="table-shell"><table><caption class="sr-only">Clueminati team scores</caption><thead><tr><th>Sno.</th><th>Team Name</th><th>Team Members Name</th><th>Round 1 Score</th><th>Round 2 Score</th><th>Round 3 Score</th></tr></thead><tbody id="leaderboard-body"><tr><td colspan="6" class="table-message">Loading live standings...</td></tr></tbody></table></div>
+        <p class="table-note"><span class="status-dot"></span> Scores are read from the competition database.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>Clueminati 4.0</span><span>Every good answer starts with a better question.</span></footer>
+    <div class="toast" id="toast" role="alert" hidden></div>
+  </div>
+</body>
+</html>
