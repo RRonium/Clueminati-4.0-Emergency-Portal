@@ -28,7 +28,19 @@ function ensureFallbackStore() {
 
 function readFallbackTeams() {
   ensureFallbackStore();
-  return JSON.parse(fs.readFileSync(fallbackPath, "utf8"));
+  const teams = JSON.parse(fs.readFileSync(fallbackPath, "utf8"));
+  let migrated = false;
+  teams.forEach((team) => {
+    if (team.current_round_score === undefined) {
+      team.current_round_score = Number(team.round_1_score || 0) + Number(team.round_2_score || 0) + Number(team.round_3_score || 0);
+      delete team.round_1_score;
+      delete team.round_2_score;
+      delete team.round_3_score;
+      migrated = true;
+    }
+  });
+  if (migrated) writeFallbackTeams(teams);
+  return teams;
 }
 
 function writeFallbackTeams(teams) {
@@ -53,11 +65,6 @@ function validDifficulty(value) {
   return Object.prototype.hasOwnProperty.call(riddles, value);
 }
 
-function validRound(value) {
-  const round = Number(value);
-  return Number.isInteger(round) && round >= 1 && round <= 3;
-}
-
 async function initializeDatabase() {
   if (!usePostgres) return;
   pool = new Pool({ connectionString: process.env.DATABASE_URL });
@@ -67,11 +74,19 @@ async function initializeDatabase() {
         sno SERIAL PRIMARY KEY,
         team_name VARCHAR NOT NULL,
         team_members_name TEXT NOT NULL,
-        round_1_score INTEGER DEFAULT 0,
-        round_2_score INTEGER DEFAULT 0,
-        round_3_score INTEGER DEFAULT 0
+        current_round_score INTEGER DEFAULT 0
       )
     `);
+    await pool.query(`ALTER TABLE team_scores ADD COLUMN IF NOT EXISTS current_round_score INTEGER DEFAULT 0`);
+    await pool.query(`
+      DO $$
+      BEGIN
+        IF EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'team_scores' AND column_name = 'round_1_score') THEN
+          EXECUTE 'UPDATE team_scores SET current_round_score = COALESCE(round_1_score, 0) + COALESCE(round_2_score, 0) + COALESCE(round_3_score, 0) WHERE current_round_score = 0';
+        END IF;
+      END $$
+    `);
+    await pool.query(`ALTER TABLE team_scores DROP COLUMN IF EXISTS round_1_score, DROP COLUMN IF EXISTS round_2_score, DROP COLUMN IF EXISTS round_3_score`);
     console.log("Persistence: PostgreSQL");
   } catch (error) {
     console.warn(`PostgreSQL unavailable, using JSON fallback: ${error.message}`);
@@ -85,14 +100,14 @@ async function registerTeam(teamName, teamMembersName) {
   if (usePostgres) {
     const existing = await pool.query(
       `UPDATE team_scores SET team_members_name = $2 WHERE LOWER(team_name) = LOWER($1)
-       RETURNING sno, team_name, team_members_name, round_1_score, round_2_score, round_3_score`,
+      RETURNING sno, team_name, team_members_name, current_round_score`,
       [teamName, teamMembersName]
     );
     if (existing.rows[0]) return existing.rows[0];
     const result = await pool.query(
       `INSERT INTO team_scores (team_name, team_members_name)
        VALUES ($1, $2)
-       RETURNING sno, team_name, team_members_name, round_1_score, round_2_score, round_3_score`,
+      RETURNING sno, team_name, team_members_name, current_round_score`,
       [teamName, teamMembersName]
     );
     return result.rows[0];
@@ -109,9 +124,7 @@ async function registerTeam(teamName, teamMembersName) {
     sno: teams.length ? Math.max(...teams.map((item) => item.sno)) + 1 : 1,
     team_name: teamName,
     team_members_name: teamMembersName,
-    round_1_score: 0,
-    round_2_score: 0,
-    round_3_score: 0
+    current_round_score: 0
   };
   teams.push(team);
   writeFallbackTeams(teams);
@@ -129,24 +142,21 @@ async function findTeam(teamId) {
 async function getLeaderboard() {
   if (usePostgres) {
     const result = await pool.query(
-      `SELECT sno, team_name, team_members_name, round_1_score, round_2_score, round_3_score
-       FROM team_scores ORDER BY (round_1_score + round_2_score + round_3_score) DESC, sno ASC`
+      `SELECT sno, team_name, team_members_name, current_round_score
+       FROM team_scores ORDER BY current_round_score DESC, sno ASC`
     );
     return result.rows;
   }
   return readFallbackTeams().sort((a, b) => {
-    const scoreA = a.round_1_score + a.round_2_score + a.round_3_score;
-    const scoreB = b.round_1_score + b.round_2_score + b.round_3_score;
-    return scoreB - scoreA || a.sno - b.sno;
+    return b.current_round_score - a.current_round_score || a.sno - b.sno;
   });
 }
 
-async function addScore(teamId, round, points) {
-  const column = `round_${round}_score`;
+async function addScore(teamId, points) {
   if (usePostgres) {
     const result = await pool.query(
-      `UPDATE team_scores SET ${column} = ${column} + $1 WHERE sno = $2
-       RETURNING sno, team_name, team_members_name, round_1_score, round_2_score, round_3_score`,
+      `UPDATE team_scores SET current_round_score = current_round_score + $1 WHERE sno = $2
+       RETURNING sno, team_name, team_members_name, current_round_score`,
       [points, teamId]
     );
     return result.rows[0];
@@ -154,21 +164,19 @@ async function addScore(teamId, round, points) {
   const teams = readFallbackTeams();
   const team = teams.find((item) => item.sno === Number(teamId));
   if (!team) return undefined;
-  team[column] += points;
+  team.current_round_score = Number(team.current_round_score || 0) + points;
   writeFallbackTeams(teams);
   return team;
 }
 
 function toCsv(rows) {
-  const header = ["Sno", "Team Name", "Team Members Name", "Round 1 Score", "Round 2 Score", "Round 3 Score"];
+  const header = ["Sno", "Team Name", "Team Members Name", "Current Round Score"];
   const escape = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
   return [header, ...rows.map((row) => [
     row.sno,
     row.team_name,
     row.team_members_name,
-    row.round_1_score,
-    row.round_2_score,
-    row.round_3_score
+    row.current_round_score
   ])].map((line) => line.map(escape).join(",")).join("\n");
 }
 
@@ -216,8 +224,7 @@ app.post("/api/answers", async (req, res, next) => {
   try {
     const { teamId, riddleId, answer } = req.body;
     const difficulty = String(req.body.difficulty || "").toLowerCase();
-    const round = Number(req.body.round || 1);
-    if (!teamId || !validDifficulty(difficulty) || !validRound(round) || !riddles[difficulty].some((riddle) => riddle.id === Number(riddleId))) {
+    if (!teamId || !validDifficulty(difficulty) || !riddles[difficulty].some((riddle) => riddle.id === Number(riddleId))) {
       return res.status(400).json({ error: "The answer submission is incomplete or invalid." });
     }
     const team = await findTeam(teamId);
@@ -225,8 +232,8 @@ app.post("/api/answers", async (req, res, next) => {
     const riddle = riddles[difficulty].find((item) => item.id === Number(riddleId));
     const correct = normalizeAnswer(answer) === normalizeAnswer(riddle.answer);
     if (!correct) return res.json({ correct: false, message: "Not this time. Read the clue once more." });
-    const updatedTeam = await addScore(teamId, round, pointsByDifficulty[difficulty]);
-    res.json({ correct: true, points: pointsByDifficulty[difficulty], team: updatedTeam, message: "Correct. Points added." });
+    const updatedTeam = await addScore(teamId, pointsByDifficulty[difficulty]);
+    res.json({ correct: true, points: pointsByDifficulty[difficulty], team: updatedTeam, message: "Correct. Points added to the current round." });
   } catch (error) { next(error); }
 });
 

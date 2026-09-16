@@ -1,7 +1,6 @@
 const state = {
   team: null,
   difficulty: "easy",
-  round: 1,
   riddle: null,
   currentView: "game"
 };
@@ -45,10 +44,7 @@ function updateTeamScore(team) {
   document.querySelector("#active-team-name").textContent = team.team_name;
   document.querySelector("#active-member-name").textContent = team.team_members_name;
   document.querySelector("#team-avatar").textContent = team.team_name.charAt(0).toUpperCase();
-  document.querySelector("#round-1-score").textContent = team.round_1_score;
-  document.querySelector("#round-2-score").textContent = team.round_2_score;
-  document.querySelector("#round-3-score").textContent = team.round_3_score;
-  document.querySelector("#total-score").textContent = team.round_1_score + team.round_2_score + team.round_3_score;
+  document.querySelector("#current-round-score").textContent = team.current_round_score;
 }
 
 function setFeedback(message, type) {
@@ -93,11 +89,11 @@ async function submitAnswer(event) {
   try {
     const result = await request("/api/answers", {
       method: "POST",
-      body: JSON.stringify({ teamId: state.team.sno, riddleId: state.riddle.id, difficulty: state.difficulty, round: state.round, answer: answerInput.value })
+      body: JSON.stringify({ teamId: state.team.sno, riddleId: state.riddle.id, difficulty: state.difficulty, answer: answerInput.value })
     });
     if (result.correct) {
       updateTeamScore(result.team);
-      setFeedback(`Correct. +${result.points} points added to Round ${state.round}.`, "success");
+      setFeedback(`Correct. +${result.points} points added to the current round.`, "success");
       showToast("Nice work. The score is live.", "success");
       answerForm.hidden = true;
       state.riddle = null;
@@ -123,7 +119,7 @@ async function loadLeaderboard() {
     if (!teams.length) {
       const row = document.createElement("tr");
       const cell = createCell("No teams have entered yet.");
-      cell.colSpan = 6;
+      cell.colSpan = 4;
       cell.className = "table-message";
       row.append(cell);
       leaderboardBody.append(row);
@@ -131,13 +127,13 @@ async function loadLeaderboard() {
     }
     teams.forEach((team, index) => {
       const row = document.createElement("tr");
-      row.append(createCell(index + 1, "rank-cell"), createCell(team.team_name, "team-cell"), createCell(team.team_members_name), createCell(team.round_1_score), createCell(team.round_2_score), createCell(team.round_3_score));
+      row.append(createCell(index + 1, "rank-cell"), createCell(team.team_name, "team-cell"), createCell(team.team_members_name), createCell(team.current_round_score));
       leaderboardBody.append(row);
     });
   } catch (error) {
     const row = document.createElement("tr");
     const cell = createCell(error.message);
-    cell.colSpan = 6;
+    cell.colSpan = 4;
     cell.className = "table-message error-text";
     row.append(cell);
     leaderboardBody.replaceChildren(row);

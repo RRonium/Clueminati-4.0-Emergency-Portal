@@ -48,10 +48,7 @@
           <div class="team-chip"><span class="team-avatar" id="team-avatar">C</span><span><strong id="active-team-name">Team</strong><small id="active-member-name">Member</small></span></div>
         </div>
         <div class="score-strip" aria-label="Team score">
-          <div><span>Round 1</span><strong id="round-1-score">0</strong></div>
-          <div><span>Round 2</span><strong id="round-2-score">0</strong></div>
-          <div><span>Round 3</span><strong id="round-3-score">0</strong></div>
-          <div class="total-score"><span>Total score</span><strong id="total-score">0</strong><small>pts</small></div>
+          <div class="total-score"><span>Current round score</span><strong id="current-round-score">0</strong><small>pts</small></div>
         </div>
         <div class="difficulty-row">
           <div><p class="eyebrow">Choose your risk</p><div class="difficulty-tabs" role="tablist" aria-label="Difficulty">
@@ -74,7 +71,7 @@
 
       <section class="leaderboard-view view" id="leaderboard-view" hidden aria-labelledby="leaderboard-title">
         <div class="view-heading"><div><p class="eyebrow accent-label">Live standings</p><h1 id="leaderboard-title">The hall of fame.</h1></div><button class="secondary-button" id="download-button" type="button">Download CSV <span aria-hidden="true">↓</span></button></div>
-        <div class="table-shell"><table><caption class="sr-only">Clueminati team scores</caption><thead><tr><th>Sno.</th><th>Team Name</th><th>Team Members Name</th><th>Round 1 Score</th><th>Round 2 Score</th><th>Round 3 Score</th></tr></thead><tbody id="leaderboard-body"><tr><td colspan="6" class="table-message">Loading live standings...</td></tr></tbody></table></div>
+        <div class="table-shell"><table><caption class="sr-only">Clueminati team scores</caption><thead><tr><th>Sno.</th><th>Team Name</th><th>Team Members Name</th><th>Current Round Score</th></tr></thead><tbody id="leaderboard-body"><tr><td colspan="4" class="table-message">Loading live standings...</td></tr></tbody></table></div>
         <p class="table-note"><span class="status-dot"></span> Scores are read from the competition database.</p>
       </section>
     </main>
