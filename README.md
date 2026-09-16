@@ -25,7 +25,7 @@ npm start
 
 - Easy: 30 points
 - Medium: 45 points
-- Hard: 60 points
+- Hard: 70 points
 
 Correct answers append points to `current_round_score`. The leaderboard has no Round 1, Round 2, or Round 3 columns.
 
@@ -36,6 +36,11 @@ Sno. | Team Name | Team Members Name | Current Round Score
 ```
 
 CSV export is available at `/api/leaderboard.csv`.
+
+The Leaderboard view also provides:
+
+- **Reset scores**: keeps all team rows and sets every current round score to `0`.
+- **Truncate leaderboard**: permanently removes all team rows and resets serial numbering.
 
 Reset JSON persistence with:
 

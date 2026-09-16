@@ -140,6 +140,15 @@ async function loadLeaderboard() {
   }
 }
 
+async function runLeaderboardAction(action, message) {
+  if (!window.confirm(message)) return;
+  try {
+    await request(`/api/leaderboard/${action}`, { method: "POST" });
+    await loadLeaderboard();
+    showToast(action === "truncate" ? "Leaderboard truncated." : "All scores reset to zero.", "success");
+  } catch (error) { showToast(error.message, "error"); }
+}
+
 entryForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const submitButton = entryForm.querySelector("button");
@@ -159,6 +168,8 @@ document.querySelectorAll(".difficulty-tab").forEach((tab) => tab.addEventListen
 document.querySelector("#draw-button").addEventListener("click", drawRiddle);
 answerForm.addEventListener("submit", submitAnswer);
 document.querySelectorAll(".nav-link").forEach((link) => link.addEventListener("click", () => showView(link.dataset.view)));
+document.querySelector("#reset-button").addEventListener("click", () => runLeaderboardAction("reset", "Reset every team score to zero? Team rows will be kept."));
+document.querySelector("#truncate-button").addEventListener("click", () => runLeaderboardAction("truncate", "Delete every leaderboard row? This cannot be undone."));
 document.querySelector("#download-button").addEventListener("click", () => { window.location.href = "/api/leaderboard.csv"; });
 
 showView("game");

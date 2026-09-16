@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 const port = Number(process.env.PORT) || 3000;
 const riddles = JSON.parse(fs.readFileSync(path.join(__dirname, "riddles.json"), "utf8"));
-const pointsByDifficulty = { easy: 30, medium: 45, hard: 60 };
+const pointsByDifficulty = { easy: 30, medium: 45, hard: 70 };
 const fallbackPath = path.join(__dirname, "data", "teams.json");
 const drawHistory = new Map();
 let usePostgres = Boolean(process.env.DATABASE_URL);
@@ -209,6 +209,7 @@ app.post("/api/riddles/draw", async (req, res, next) => {
   if (!Number.isInteger(teamId) || teamId < 1) return res.status(400).json({ error: "Register a team before drawing a riddle." });
   if (!await findTeam(teamId)) return res.status(404).json({ error: "Team session not found. Please register again." });
   const poolForTier = riddles[difficulty];
+  if (!poolForTier.length) return res.status(404).json({ error: `No ${difficulty} riddles are currently available.` });
   const historyKey = `${teamId}:${difficulty}`;
   const visited = drawHistory.get(historyKey) || new Set();
   if (visited.size >= poolForTier.length) visited.clear();
@@ -240,6 +241,23 @@ app.post("/api/answers", async (req, res, next) => {
 app.get("/api/leaderboard", async (req, res, next) => {
   try { res.json({ teams: await getLeaderboard(), persistence: usePostgres ? "postgres" : "json" }); }
   catch (error) { next(error); }
+});
+
+app.post("/api/leaderboard/reset", async (req, res, next) => {
+  try {
+    if (usePostgres) await pool.query("UPDATE team_scores SET current_round_score = 0");
+    else writeFallbackTeams(readFallbackTeams().map((team) => ({ ...team, current_round_score: 0 })));
+    res.json({ ok: true, action: "reset", teams: await getLeaderboard() });
+  } catch (error) { next(error); }
+});
+
+app.post("/api/leaderboard/truncate", async (req, res, next) => {
+  try {
+    if (usePostgres) await pool.query("TRUNCATE TABLE team_scores RESTART IDENTITY");
+    else writeFallbackTeams([]);
+    drawHistory.clear();
+    res.json({ ok: true, action: "truncate", teams: [] });
+  } catch (error) { next(error); }
 });
 
 app.get("/api/leaderboard.csv", async (req, res, next) => {

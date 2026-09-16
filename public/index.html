@@ -54,7 +54,7 @@
           <div><p class="eyebrow">Choose your risk</p><div class="difficulty-tabs" role="tablist" aria-label="Difficulty">
             <button class="difficulty-tab is-active easy" data-difficulty="easy" role="tab" aria-selected="true" type="button"><span>Easy</span><small>+30</small></button>
             <button class="difficulty-tab medium" data-difficulty="medium" role="tab" aria-selected="false" type="button"><span>Medium</span><small>+45</small></button>
-            <button class="difficulty-tab hard" data-difficulty="hard" role="tab" aria-selected="false" type="button"><span>Hard</span><small>+60</small></button>
+            <button class="difficulty-tab hard" data-difficulty="hard" role="tab" aria-selected="false" type="button"><span>Hard</span><small>+70</small></button>
           </div></div>
           <button class="draw-button" id="draw-button" type="button"><span class="draw-icon">✦</span> Lucky draw</button>
         </div>
@@ -70,7 +70,7 @@
       </section>
 
       <section class="leaderboard-view view" id="leaderboard-view" hidden aria-labelledby="leaderboard-title">
-        <div class="view-heading"><div><p class="eyebrow accent-label">Live standings</p><h1 id="leaderboard-title">The hall of fame.</h1></div><button class="secondary-button" id="download-button" type="button">Download CSV <span aria-hidden="true">↓</span></button></div>
+        <div class="view-heading"><div><p class="eyebrow accent-label">Live standings</p><h1 id="leaderboard-title">The hall of fame.</h1></div><div class="leaderboard-actions"><button class="secondary-button" id="reset-button" type="button">Reset scores</button><button class="secondary-button danger-button" id="truncate-button" type="button">Truncate leaderboard</button><button class="secondary-button" id="download-button" type="button">Download CSV <span aria-hidden="true">↓</span></button></div></div>
         <div class="table-shell"><table><caption class="sr-only">Clueminati team scores</caption><thead><tr><th>Sno.</th><th>Team Name</th><th>Team Members Name</th><th>Current Round Score</th></tr></thead><tbody id="leaderboard-body"><tr><td colspan="4" class="table-message">Loading live standings...</td></tr></tbody></table></div>
         <p class="table-note"><span class="status-dot"></span> Scores are read from the competition database.</p>
       </section>
