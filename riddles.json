@@ -2,453 +2,148 @@
   "easy": [
     {
       "id": 1,
-      "question": "Before the fires take it, the roof of Valhalla gleams brighter than any blade. Not warm to touch, not soft to bite. I'm the colour kings chase and thieves die for.",
-      "answer": "Gold"
+      "question": "As Heimdall's watch fails and the Bifrost begins to shatter, shards of its light scatter across Yggdrasil's roots, each one burning with a different hue: 0xFF0000, 0xFF7900, 0xFFFF00, 0x13DD17, 0x304FFF, 0x4B0082, 0x8F00FF What bridge do these colours, gathered together, rebuild?",
+      "answer": "Bifrost"
     },
     {
       "id": 2,
-      "question": "I am forged in no smithy, yet I have teeth. I eat nothing, yet I devour the day itself, one bite at a time, until nothing is left. What am I?",
-      "answer": "Clock"
+      "question": "In the last standing mead-hall of Asgard, smoke curling through the rafters as the halls of the gods begin to fall, a wandering thinker argues with a raven-keeper that no fate is fixed until the Norns themselves look upon it - that a creature sealed away exists in every possible end at once, alive and dead, until observed. His anxious cat, sensing the coming flame, bolts into the burning ruins outside. Who is this thinker?",
+      "answer": "Schrodinger"
     },
     {
       "id": 3,
-      "question": "When Fenrir breaks his chains, when the sky bleeds and the gods fall, seek the wound left upon the world. I have no blood, yet I am its hue. Who am I?",
-      "answer": "Red"
+      "question": "Before you stand three iron-bound gates of Valhalla. Behind one lies swift passage across the Bifrost to feast forever with the Einherjar. Behind the other two, only ash. You choose a gate. Before it opens, Heimdall - who knows what lies behind each - swings open one of the other gates, revealing nothing but ash. Do you stay with your first gate, or switch to the last one, to best your odds of reaching the feast-hall?",
+      "answer": "Switch"
     },
     {
       "id": 4,
-      "question": "The Norns have written the final number. It begins with nothing, ends with nothing, and between the two lies the fate of every god.",
-      "answer": "Zero"
+      "question": "Carved into a rune-stone, half-swallowed by frost, a verse remains: \"I am a letter yet a number in disguise, Shift me up and down, secrets arise. Decode my form, your mission's begun, Find the shade and you've nearly won.\" 7 14 8 17 7 7 20 7 19 6 7",
+      "answer": "Shade Hunter"
     },
     {
       "id": 5,
-      "question": "To heal the tree and cross the divide, I cling directly to your side. I swallow relics whole and deep, to guard the treasures that you keep. I rest my arms around your chest, to bear the weight upon your quest.",
-      "answer": "Bag"
+      "question": "One hundred Einherjar are bound to an island beyond the reach of Valhalla, each cursed with either blue or brown eyes. The law of their exile is cruel: the instant a warrior knows their own eyes are blue, they must walk into the sea at the next dawn, never to return. Each can see every other warrior's eyes, but none can see their own - and no reflection will show it to them. One grey morning, a lone raven lands among them and speaks a single line: \"At least one of you has blue eyes.\" Silence follows. A countdown has begun, though no one moves for a very long time. How many days pass before every blue-eyed warrior has vanished into the sea?",
+      "answer": "100 days"
     },
     {
       "id": 6,
-      "question": "I hold my ground while realms decay, guarding the vault till keys find their way. Heavy, iron-bound, and cold to the touch.",
-      "answer": "Lock"
+      "question": "A rune carved in haste reads: \"The answer lies in numbers. Take the square root of 2601. That number marks a vault hidden far past the edge of the mapped world, where secrets not even the gods will claim.\" What is this hidden place?",
+      "answer": "Area 51"
     },
     {
       "id": 7,
-      "question": "Hurry now, or face defeat;\nunder fans that hum and drone;\nstack your books, take your seat;\nhidden in each line's first beat.",
-      "answer": "Hush"
+      "question": "One of Fenrir's lesser kin, a lone grey wolf, must haul 3,000 skins of preserved mead across 1,000 miles of ash-choked wasteland to the last standing trading post of Midgard. It can carry only 1,000 skins at a time, and for every mile walked, it must drink one skin to survive the journey. Given these brutal terms, what is the greatest number of mead-skins the wolf can deliver?",
+      "answer": "533 mead-skins"
     },
     {
       "id": 8,
-      "question": "You need me when you enter, you need me when you leave, but I never once say a word. Lose me and no guard of Midgard's gate will let you walk beyond the wall. What am I?",
-      "answer": "ID card"
+      "question": "Among the treasures pulled from a collapsed dwarven vault in Svartalfheim lie 12 identical gold rings - save one, a forgery, very slightly lighter than the rest. The keeper of the vault permits you only three weighings on an ancient balance scale to find the false ring before the vault reseals. How many weighings does it actually take?",
+      "answer": "Three"
     },
     {
       "id": 9,
-      "question": "The more you take, the more you leave behind; a trailing mark of a restless mind. They tell a tale of where you've been, showing the journey from end to begin. What are they?",
-      "answer": "Footprint"
+      "question": "Scratched into the bark of Yggdrasil in a script no one living remembers, a pattern is found: A, C, F, J, O. What rune-letter comes next?",
+      "answer": "U"
     },
     {
       "id": 10,
-      "question": "I have a head but lack a brain, I have sharp teeth that cause no pain. A silent twist within my frame, grants you entry to win the game. What am I?",
-      "answer": "Key"
+      "question": "A lone survivor studies a faded photograph pulled from the wreckage of Asgard. A companion asks who it shows. He answers only: \"I have no brothers or sisters. This is the child of my father's son.\" Whose face is in the photograph?",
+      "answer": "His son"
     },
     {
       "id": 11,
-      "question": "Shared by thousands, owned by none, I falter under the weight of every realm that connects to me. What am I?",
-      "answer": "WiFi / Internet"
+      "question": "I'm the place where time seems to stall, Yet crowds gather, big and small. Some come for sustenance, others for a chat, Though my offerings might not always be gourmet or fat. The lines are long, the seats are few, But somehow, I'm always in view. Even the Einherjar, resting between battles, would know my kind - What campus hall am I, where hungry students find?",
+      "answer": "Canteen"
     },
     {
       "id": 12,
-      "question": "A warrior may seek me his entire life. When he finally possesses me, he may no longer need his sword. Yet the moment he believes he has mastered me, he has probably lost me.",
-      "answer": "Enlightenment"
+      "question": "Among the last relics of the old world, a locked chest bears a riddle: \"I have keys but no locks. I have space but no room. You can enter but not go inside. What unlocks the chest?\"",
+      "answer": "A keyboard"
     },
     {
       "id": 13,
-      "question": "A skald dips me in black and gives me a voice. I have no tongue, yet I speak. I have no memory, yet I preserve what a man would otherwise forget. I am destroyed by the very thing I create.",
-      "answer": "Quill"
+      "question": "A healer's journal, left behind as Fimbulwinter set in, holds a sequence said to lead to the last cure: 3, 7, 15, 31, 63. What comes next?",
+      "answer": "127"
     },
     {
       "id": 14,
-      "question": "A warrior finds a door. There is no lock on it. No hinges are visible. No handle exists. Yet the warrior opens it every morning. At night, it closes by itself.",
-      "answer": "Eyes"
+      "question": "Scrawled on the last page of a survivor's log, half-burned, a single word remains: \"Xofvnrmgzr.\" Whispers say deciphering it reveals the name of the ones who first foresaw the fall of the gods.",
+      "answer": "Clueminati"
     },
     {
       "id": 15,
-      "question": "A warrior stands before Odin. Odin says: 'Everything you have ever seen is behind you.' The warrior turns around. Everything he has ever seen is indeed behind him. But he has not moved. There is no trick involving mirrors. What is behind him?",
-      "answer": "The past"
-    },
-    {
-      "id": 16,
-      "question": "Heimdall guards every path to Asgard. I carry no sword, yet I approve who may pass. Without me, even a familiar face may remain outside the gate.",
-      "answer": "ID Card / Password"
-    },
-    {
-      "id": 17,
-      "question": "Thor's strength fades not, but mine does. When I grow weak, my bearer searches for a source of life. A thin serpent carries that life to me.",
-      "answer": "Battery"
-    },
-    {
-      "id": 18,
-      "question": "The God of Thunder never arrives quietly. Before his hammer shakes the mountains and before the heavens roar, the sky is split open for only a heartbeat. In that single flash lies the answer. Name colour of Thor's warning.",
-      "answer": "White"
-    },
-    {
-      "id": 19,
-      "question": "When Odin's ravens leave the hall, I may carry words without a voice. I have no mouth, yet secrets pass through me. Open me, and another's thoughts appear.",
-      "answer": "Letter"
-    },
-    {
-      "id": 20,
-      "question": "Jörmungandr wrapped itself around Midgard so completely that beginning and ending became the same place. If the serpent released its jaws but kept its shape, what symbol would remain? Speak not the beast's name but its form.",
-      "answer": "Circle"
-    },
-    {
-      "id": 21,
-      "question": "Yggdrasil stretches farther than mortal eyes can count. Upon its branches rest kingdoms of gods, giants, elves, dwarves, and the forgotten. Every traveller who enters Asgard must know how many realms the tree protects. What sacred number unlocks the gate?",
-      "answer": "9"
-    },
-    {
-      "id": 22,
-      "question": "Three sisters weave every destiny beneath the roots of Yggdrasil. Their thread has no beginning. Their thread has no end. Turn the standing tree onto its side and you'll glimpse the shape of fate itself. Name that symbol.",
-      "answer": "Infinity"
-    },
-    {
-      "id": 23,
-      "question": "The dwarves forge a chain with: 1-1-2-3-5-8-? The final link is missing. The smith says: 'Every link is born from the two before it.' What number completes the chain?",
-      "answer": "13"
-    },
-    {
-      "id": 24,
-      "question": "A dwarf gives you this: 3→12, 5→30, 7→56, 9→90, 11→? Underneath: 'I forge each number from itself and the number that follows it.'",
-      "answer": "132"
-    },
-    {
-      "id": 25,
-      "question": "Huginn returns to Odin with no message. Odin asks: 'Did you see the warrior?' Huginn says yes. Odin asks: 'Did the warrior see you?' Huginn says yes. Odin immediately knows the warrior was asleep. What was Odin doing?",
-      "answer": "Dream"
-    },
-    {
-      "id": 26,
-      "question": "The warrior sees: MIDGARD | ASGARD. He must cross from one realm to the other. He cannot step on either realm. He cannot step outside the inscription. Where does he stand?",
-      "answer": "On the ' | ' (the divider/pipe symbol)"
-    },
-    {
-      "id": 27,
-      "question": "The gods found a weapon with eighty-eight teeth. None could bite. They struck its teeth in battle, and the weapon answered with voices. The strange part was this: the black teeth were not the ones that spoke first. What had survived the collapse?",
-      "answer": "Piano"
-    },
-    {
-      "id": 28,
-      "question": "Surtr stood at the edge of Muspelheim, waiting for the final flame. The gods feared the sword he carried. The mortals feared something smaller: a wooden thing that needs only one violent meeting to create fire. What was it?",
-      "answer": "Matchstick"
-    },
-    {
-      "id": 29,
-      "question": "Loki was given three chances to deceive the gods. The first failed at 3. The second at 5. The third at 8. The Norns called the numbers 'children of the same mother.' Find the next child.",
-      "answer": "13"
-    },
-    {
-      "id": 30,
-      "question": "When Surtr raised his flaming sword, the heavens did not become crimson. The seas did not become gold. Instead, the sky swallowed every colour until none could escape its mouth. The Norns wrote that this shade is both the end of light and the beginning of every unseen thing. Name the forgotten shade.",
-      "answer": "Black"
-    },
-    {
-      "id": 31,
-      "question": "Two wolves have run since before memory - Sköll behind the sun, Hati behind the moon - and neither will catch what it chases until the very last day arrives. But the old skalds were oddly precise about geography: they said the wolves' hunt crosses every root and every branch of the World Tree exactly once before the horns sound. Count the realms hanging from Yggdrasil's boughs - that number is the answer the wolves have always run toward.",
-      "answer": "9"
-    },
-    {
-      "id": 32,
-      "question": "When the final battle ends and only ash remains, two humans - Líf and Lífthrasir - emerge from hiding inside Yggdrasil's trunk to repopulate the world. They survived by consuming only one thing the whole time the Nine Realms burned. Ask any biology student what that substance is called, and they'll tell you it's the morning dew - but ask a chemist, and they'll give you its formula instead.",
-      "answer": "H2O"
-    },
-    {
-      "id": 33,
-      "question": "Before Ragnarok, Heimdall counts down using nothing but his fingers, and when he reaches the number that names both the sides of a stop sign and the strings on a violin, the horn finally sounds.",
-      "answer": "4"
-    },
-    {
-      "id": 34,
-      "question": "Odin walked to Mimir's well and paid in flesh, not gold - one socket empty now, the tale is told. But count what's left upon his brow, and speak the number, here and now.",
-      "answer": "One"
-    },
-    {
-      "id": 35,
-      "question": "Heimdall hears grass grow and wool on sheep, his horn stays silent till the day the realms must weep. Name the horn he'll one day sound - not soft, but a word that means 'loud' when the end comes 'round.",
-      "answer": "Gjallarhorn"
-    },
-    {
-      "id": 36,
-      "question": "Two ravens fly from Odin's shoulder each dawn, one named 'Thought,' the other is drawn from a word meaning 'memory.' Name the second raven.",
-      "answer": "Munin"
-    },
-    {
-      "id": 37,
-      "question": "Odin hung nine nights upon the World Tree, pierced by his own spear, to learn the runes and be free. Give the number of runes in the Elder Futhark - the full runic alphabet Odin bled to see.",
-      "answer": "24 runes"
-    },
-    {
-      "id": 38,
-      "question": "Two wolves chase the sun and moon eternal, Skoll and Hati, hunger internal. When Ragnarok comes, one finally succeeds and swallows the sun whole. Name the vision that blares the sky.",
-      "answer": "Solar eclipse"
-    },
-    {
-      "id": 39,
-      "question": "The Aesir built Asgard's wall with a giant's help, promising the sun, moon, and Freya's hand for the work - until Loki, shape-shifted into a mare, seduced the giant's horse to slow the build and break the deal. Name the eight-legged offspring born from this seduction.",
-      "answer": "Sleipnir"
-    },
-    {
-      "id": 40,
-      "question": "Angrboda birthed three monsters dread: a wolf, a serpent, and one who rules the dead. Name the third child - not beast, but a goddess whose realm bears her own name instead.",
-      "answer": "Hel"
-    },
-    {
-      "id": 41,
-      "question": "When Yggdrasil shivers, truth hides at the edge of the line. Collect the vanguard of each verse to reveal the beast destined to swallow the sun:\nWinter unleashes its biting frost.\nOmens shatter the tranquil night.\nLegions assemble across the plain.\nFire creeps upon the world tree.\nWhat creature has broken its chains?",
-      "answer": "Wolf"
-    },
-    {
-      "id": 42,
-      "question": "I bleed tallow and weep without tears. When I am young I stand proud and tall; when I am ancient I am withered and small. My breath gives you light in the darkest tomb, but my life ends when my own body is consumed. What am I?",
-      "answer": "Candle"
-    },
-    {
-      "id": 43,
-      "question": "The man who crafts me has no desire to keep me. The man who purchases me has no use for me. The soul that finally lies within me will never know they possess me. What dark vessel greets every mortal at Hel's gate?",
-      "answer": "Coffin / Grave"
-    },
-    {
-      "id": 44,
-      "question": "A shattered branch of Yggdrasil bears this inscription: 'Shift each rune backward along the Bifröst by the number of horns that herald Ragnarök (1), then reverse the sequence to reveal the blade's true name.' Cipher text: 'GNAF'",
-      "answer": "Fang"
-    },
-    {
-      "id": 45,
-      "question": "He who swallows his own tail leaves no beginning and no end. An old phrase hides the beast of the deep abyss: GRARMOUNDJOR",
-      "answer": "Jormungandr"
-    },
-    {
-      "id": 46,
-      "question": "I have no legs, yet I travel through the wall to feed your glowing realm. Keep me full of current or I will leave your active quest frozen in the dark. What am I?",
-      "answer": "Charger"
-    },
-    {
-      "id": 47,
-      "question": "Heimdall's eyes see across nine realms without strain - mine only work when the sun gets loud. Wear me and the world dims, take me off and it's Ragnarök-bright again.",
-      "answer": "Sunglasses"
-    },
-    {
-      "id": 48,
-      "question": "I can be: opened but not entered, closed but not shut, read but not spoken, written but not held. A Norse skald would have known me. A programmer would know me. A lawyer would know me. One word.",
-      "answer": "Case"
-    },
-    {
-      "id": 49,
-      "question": "I cut the thread the Norns have tied, sharp and folded by your side. Silent until you draw me out, then I answer without a doubt.",
-      "answer": "Knife"
-    },
-    {
-      "id": 50,
-      "question": "You need me before the trail, you need me after too, I never speak a single word, yet I vouch for you. Lose me, and no gate upon this ground, will let you pass to where your team is bound.",
-      "answer": "ID card"
-    },
-    {
-      "id": 51,
-      "question": "I hold nine realms upon my skin, rivers, ridges, out and in. Fold me small to fit your palm, lost, and you walk into harm.",
-      "answer": "Map"
-    },
-    {
-      "id": 52,
-      "question": "Fimbulwinter lasts three years, and in all that time, summer never once arrives. If each year still holds its other three seasons, how many cold seasons pass before the end?",
-      "answer": "9"
-    },
-    {
-      "id": 53,
-      "question": "Shift THOR three runes forward through the alphabet. Then read the shifted word backward, letter by letter. What word remains?",
-      "answer": "URKW"
-    },
-    {
-      "id": 54,
-      "question": "Ragnarok is not an ending, nor a beginning - it is the seam between them. A seam has no width of its own, yet it joins two things that can be measured. One side counts nine worlds. The other counts nine worlds reborn. What is the width of the seam that lets neither number touch the other?",
-      "answer": "0"
-    },
-    {
-      "id": 55,
-      "question": "Three things were lost at the end of days: a name, a promise, and a reflection. When the last surface shatters, which of the three is gone forever?",
-      "answer": "Reflection"
-    },
-    {
-      "id": 56,
-      "question": "Take the letter sum of FENRIR. Subtract the impossible ingredients the dwarves used to forge the chain that holds him. Divide by the legs he still walks on. What number is the chain marked with?",
-      "answer": "16"
-    },
-    {
-      "id": 57,
-      "question": "When Fenrir strains against Gleipnir, the binding no blade could cut, his jaw is said to stretch from the roots of the earth to the vault of the sky. The gods do not measure this in meters or in miles. They measure it the only way that matters to them - in runes, the full count of the Elder Futhark's alphabet, no more, no less.",
-      "answer": "24"
-    },
-    {
-      "id": 58,
-      "question": "The gods fall. The worlds burn. The bridge breaks. The oceans rise. Yet one thing survives every ending. It is written after every sentence and follows every story. What is it?",
-      "answer": "Period"
-    },
-    {
-      "id": 59,
-      "question": "Odin's spear Gungnir was forged so its balance point would never fail, no matter how far it was cast across the Nine Realms - the dwarven smiths achieved this by encoding into its shaft a proportion that mortal architects and philosophers, long before the horns of Ragnarök were ever imagined, considered the signature of perfect and irrational beauty. Utter not its title, but surrender the triad of digits that trail the threshold - that fissure where the integer dissolves into the unending, irrational remainder it was always fated to become.",
-      "answer": "618"
-    },
-    {
-      "id": 60,
-      "question": "A rune-master carves: MIDGARD, then applies a Caesar shift equal to the number of nights Odin hung upon the World Tree. What word emerges?",
-      "answer": "VRMPJAM"
-    },
-    {
-      "id": 61,
-      "question": "I am a three-digit number. My second digit is four times my third. My first digit is three less than my second. All digits are different. What am I?",
-      "answer": "141"
-    },
-    {
-      "id": 62,
-      "question": "Odin awoke after centuries beneath the roots of Yggdrasil. The world felt unfamiliar. The gods were gone, the forests had changed, and creatures ruled the earth that had not existed in his age. What has Odin become?",
-      "answer": "Dinosaurs"
-    },
-    {
-      "id": 63,
-      "question": "Loki became obsessed with measuring the chaos he had unleashed. He searched the halls of Asgard for something small enough to quantify his growing madness, yet capable of carrying gold. What is it?",
-      "answer": "Kilo"
-    },
-    {
-      "id": 64,
-      "question": "Valhalla stood silent after the feast, its glory, like its edges. Only what remained at its heart could still hold the warriors. What was it that remained?",
-      "answer": "Hall"
-    },
-    {
-      "id": 65,
-      "question": "Ragnarök burns the sky and drowns the earth, and not one god walks away untouched. Somewhere in the destruction, something you'd use to wipe an entire realm, or perhaps specks of dust of what's left after, remains. What is it?",
-      "answer": "Rag"
-    },
-    {
-      "id": 66,
-      "question": "Three woven strands that shimmer red and blue, trampled by gods as morning breaks anew. The Bifrost, losing a part of itself, can no longer be commanded by the Watchman, but more so be used to soothe his wounds.",
-      "answer": "Frost"
-    },
-    {
-      "id": 67,
-      "question": "The Bifrost had endured gods, giants, armies, and fire. Eventually, even the Watchman could no longer trust it to carry him safely. He didn't repair it. He didn't replace it. He simply looked for another way across. What did he need?",
-      "answer": "Bridge"
-    },
-    {
-      "id": 68,
-      "question": "The gods feared the wolf that would one day devour Odin. But before that day came, there was something else the wolf could not escape. It tightened around him no matter how hard he struggled. What was it?",
-      "answer": "Chain"
-    },
-    {
-      "id": 69,
-      "question": "Jörmungandr wound himself around Midgard until the beginning of his body met its end. A serpent with no beginning and no end, and mortals later used such a form to signify eternity, death returning to life, and the cycle that refuses to break. What did he form?",
-      "answer": "Circle"
-    },
-    {
-      "id": 70,
-      "question": "Utgard was a place where appearances were deceived, strength was tested, and even gods could be made fools. Yet every fortress, realm, or treasure has something standing between it and those who would trespass. What was the giant realm in need of?",
-      "answer": "Guard"
-    },
-    {
-      "id": 71,
-      "question": "Heimdall watched the Nine Realms from the edge of the world. His eyes could be obscured, yet the Watchman remained aware of everything around him. His perception seemed to reach beyond what ordinary eyes could reveal. What allowed Heimdall to perceive what others could not?",
-      "answer": "Future (foresight)"
-    },
-    {
-      "id": 72,
-      "question": "The gods fought their final battle. The world burned, the seas rose, and the old order collapsed. The word for an ending so complete that the world itself seems to perish would eventually become common far beyond Norse mythology. What would such an ending be called?",
-      "answer": "Apocalypse"
-    },
-    {
-      "id": 73,
-      "question": "Bifröst stretched between the realm of gods and the world of men, glowing with colours as it crossed the heavens. Mortals would later look toward the same arc after rain and see more than just scattered light - it became a symbol of hope, promise, and a bridge between what was and what might be. When the heavens painted their own version of Bifröst, what did mortals call it?",
-      "answer": "Rainbow"
-    },
-    {
-      "id": 74,
-      "question": "I was carved before I was printed. I speak not with a word, but with a sound. Centuries later, another symbol took my place, yet the sound remained. I am not the answer. I am only where the answer begins. One word.",
-      "answer": "Thorn"
-    },
-    {
-      "id": 75,
-      "question": "I am a circle in the sky and a name in an ancient pantheon. Far from Rome, another god inherited my place in a certain day. Follow the symbol to the planet, the planet to the god, and the god to the day. Then cross the sea of languages and find a god.",
-      "answer": "Thor"
-    },
-    {
-      "id": 76,
-      "question": "I am a number of worlds. Among them lies the home of mankind. Its name begins with a letter. That letter stands thirteen places into another alphabet. Nine worlds surround the clue. What number is left?",
-      "answer": "Four"
-    },
-    {
-      "id": 77,
-      "question": "I had two. I wanted what could not be seen. So I gave away one and received something worth more than sight. I still had an eye. But I had gained something greater. What did I buy?",
-      "answer": "Wisdom"
-    },
-    {
-      "id": 78,
-      "question": "I gave birth to a horse. I was not a horse. The horse had eight legs. I was not its father. Yet I was its mother. Who am I?",
+      "question": "Among the ash of a burned hall, a scrap of birch bark carries four numbers: 12, 15, 11, 9. Whispers say this name belongs to the one who set the wolf loose and the serpent free - the architect of the world's ending.",
       "answer": "Loki"
     },
     {
-      "id": 79,
-      "question": "Draupnir the spear, when seen for its truth, reveals it's not one that spears - what is its truth when it's not in gold?",
-      "answer": "Ring"
+      "id": 16,
+      "question": "Three weary travelers, fleeing the fall of Asgard, take shelter at a Midgard inn and pay 30 silver pieces for a room, unaware the innkeeper meant to charge only 25. He sends 5 pieces back with a thrall who, tempted, pockets 2 and returns only 1 to each traveler. Each has now paid 9, totalling 27. The thrall holds his 2. Yet 27 + 2 = 29, not 30. Where did the missing piece go?",
+      "answer": "There is no missing coin"
     },
     {
-      "id": 80,
-      "question": "Oh set sail where you would! Winds favour you, matter not if it could. Thin are these pieces of clues a boat they can make if you would, from Vanaheim they came.",
-      "answer": "Wood"
+      "id": 17,
+      "question": "A verse recovered from a dwarven forge speaks of a cursed band of red gold, cut from the hoard of a shape-shifting dwarf who cursed it before it was taken. Whoever holds it is consumed by greed for it above all else even above kin, above life. Name the ring, and the dwarf who first bore its curse.",
+      "answer": "Andvaranaut, cursed by Andvari"
     },
     {
-      "id": 81,
-      "question": "A merchant owns the rarest sword in all of Midgard. He keeps it safely inside Kafra storage. One day, someone steals it. The merchant is not angry. In fact, he says: 'They stole the one thing I never actually owned.' What was stolen?",
-      "answer": "Time"
+      "id": 18,
+      "question": "Hidden within a string of numbers smuggled out during the last uprising - 67 79 68 69 67 72 69 70 - lies the name of the gathering that will not fall, no matter how many realms burn.",
+      "answer": "CodeChef"
     },
     {
-      "id": 82,
-      "question": "A priest can heal wounds. He can restore strength. He can cure poison. He can save a dying warrior. But there is one thing he cannot heal, even with the strongest healing spell. What is it?",
-      "answer": "Regret"
+      "id": 19,
+      "question": "The watch of the Einherjar mark the hour of the final battle in old numerals, hidden in invisible ink: \"IX + VI.\" What hour do they march?",
+      "answer": "3 PM"
     },
     {
-      "id": 83,
-      "question": "The Enemy You Carry Into Battle - a warrior prepares for the greatest battle of his life. He checks his sword. Sharp. He checks his armor. Strong. He checks his potions. Full. Everything is ready. Yet there is one enemy standing beside him before the battle even begins. He cannot leave it behind because it entered the battlefield with him. What is it?",
-      "answer": "Doubt"
+      "id": 20,
+      "question": "Taken from the deep veins beneath Svartalfheim, where the dwarves delve, I am shut inside a wooden case I never leave - and yet I am used by almost everyone above ground. What am I?",
+      "answer": "Pencil lead"
     },
     {
-      "id": 84,
-      "question": "I am the answer, I hold no deceit, I tell no lies. I wear no veil, I lay in front of you plain. I am the trouble, I am the ?",
-      "answer": "The truth"
+      "id": 21,
+      "question": "Three chests sit in Freyja's ruined storehouse: one holds only golden apples, one only silver ones, and one holds both - but every label has been switched, so no chest bears its true contents. Drawing a single fruit from one chest, without looking inside, how can you correctly label all three?",
+      "answer": "Draw from the chest labelled \"Apples and Oranges\""
     },
     {
-      "id": 85,
-      "question": "I was born when Surtr set the branches ablaze, yet I leave no ashes behind. I have a spine but no bones, hundreds of leaves but zero trees, and I preserve the memory of the cosmos long after the wolf swallows the sun.",
-      "answer": "Book"
+      "id": 22,
+      "question": "Word reaches a war-band that a betrayer named John hides among four survivors gathered around a fire: a carpenter, a lorry driver, a mechanic, and a watch-keeper. Without hesitation, the band seizes the watch-keeper. How did they know?",
+      "answer": "The other three are women"
     },
     {
-      "id": 86,
-      "question": "Odin gave an eye for wisdom. Týr gave a hand for binding. I give nothing - yet I am given at every door. What am I?",
-      "answer": "Knock"
+      "id": 23,
+      "question": "At a fork in a road choked with ash, two watchmen stand guard over the paths from a burning realm. One speaks truth only on the first three days of the week and lies the rest; the other lies on those same days and tells truth the rest. You don't know which is which, or what day it is. What single question, asked of either, reveals the safe road?",
+      "answer": "Ask either: \"If I asked the other man which path is safe, what would he say?\" - then take the opposite."
     },
     {
-      "id": 87,
-      "question": "The ship Naglfar sails on me. The wolf's jaw is bound by me. I am not water, not iron, not thread - yet I am the only thing that can hold a god. What am I?",
-      "answer": "Nothing"
+      "id": 24,
+      "question": "Three sacred clocks, said to be kept by the Norns themselves, are given to you as Ragnarok unfolds. One runs fast, one runs slow, one keeps true time. You may compare all three to each other only once. How do you find the true one?",
+      "answer": "The clock showing the middle time is correct."
     },
     {
-      "id": 88,
-      "question": "Two ravens fly, one north, one south. They return with the same word. If Thought and Memory both forget, what is left of Odin?",
-      "answer": "One"
+      "id": 25,
+      "question": "Prophecy holds that when the fires of Surtr have consumed the Nine Realms and the gods themselves have fallen, a new world will rise from the sea green and fertile - and somewhere within it stands a hall roofed in gold, more radiant than the sun, where the surviving gods will dwell in peace. What is this golden hall called?",
+      "answer": "Gimle"
     },
     {
-      "id": 89,
-      "question": "I fall before the ash, but I am not a leaf. I rise after the flood, but I am not a ship. I am the sum of all your steps - what am I?",
-      "answer": "Path"
+      "id": 26,
+      "question": "Through the crackle of a dying signal, a voice breaks through the Bifrost's static: \"we-are-trapped-they-are-closing-in-our-hall-has-fallen-no-time-left-we-are-running-out-of-hope-please-send-help-please-send-help!\" They ask for a reply in the same style as their message. What's the word for that style?",
+      "answer": "kebab-case"
     },
     {
-      "id": 90,
-      "question": "I am the wound that does not bleed. I am the mouth that does not speak. I am the eye that does not see. I am carved into Yggdrasil's bark. What am I?",
-      "answer": "Rune"
+      "id": 27,
+      "question": "A scout, embedded among the enemy before the final battle, sends back this passage, claiming a crucial frequency is hidden within it: \"The ashen sky loomed over realms drained of colour, a grim reminder of the war that eight away at the gods' future. Four ages, survivors trudged through the ash, their eyes two weary to recall the green of Yggdrasil's leaves. In this bleak dusk, even the victors lost - no one truly one. Shades of grey stretched as far as the eye could see, a canvas painted by the wolf's hunger.\"",
+      "answer": "842.1 MHz"
+    },
+    {
+      "id": 28,
+      "question": "Carved into a 3x3 grid by the Norns themselves, the numbers 1 through 9 are arranged so every row, column, and diagonal sums the same. What is that sum?",
+      "answer": "15"
+    },
+    {
+      "id": 29,
+      "question": "In a world drained of colour by Fimbulwinter's long grey winter, an old seer offers you a chest that might restore the spectrum of light - if you can read its inscription: 41733293.",
+      "answer": "Grey"
     }
   ],
   "medium": [
@@ -474,12 +169,12 @@
     },
     {
       "id": 5,
-      "question": "'Press the button, count the strike; an old dialer hides what you seek.' 2-3 . 6-3 . 3-1 . 3-2 . 2-3 . 4-2 . 3-2 . 3-3",
+      "question": "\"Press the button, count the strike; an old dialer hides what you seek.\" 2-3•6-3•3-1•3-2•2-3•4-2•3-2•3-3",
       "answer": "CodeChef"
     },
     {
       "id": 6,
-      "question": "'From Yggdrasil's roots to the twilight of Ragnarok, an ancient pantheon was given a modern voice. Trace this global identifier to uncover the weaver of these tales:' 978-0-393-60909-7 Identify the master storyteller who penned this chronicle of Odin, Thor, and Loki.",
+      "question": "\"From Yggdrasil's roots to the twilight of Ragnarok, an ancient pantheon was given a modern voice. Trace this global identifier to uncover the weaver of these tales:\" 978-0-393-60909-7. Identify the master storyteller who penned this chronicle of Odin, Thor, and Loki.",
       "answer": "Neil Gaiman"
     },
     {
@@ -494,7 +189,7 @@
     },
     {
       "id": 9,
-      "question": "The Last Word: A skald writes: ODIN THOR LOKI FREYA BALDER. The gods say: 'The answer is hiding where no name begins.' Take what appears immediately after the beginning of each name. What remains?",
+      "question": "The Last Word: A skald writes: ODIN THOR LOKI FREYA BALDER. The gods say: \"The answer is hiding where no name begins.\" Take what appears immediately after the beginning of each name. What remains?",
       "answer": "DHORA"
     },
     {
@@ -504,22 +199,22 @@
     },
     {
       "id": 11,
-      "question": "A rune-master writes six symbols: He tells you: 'The first is carried. The second is heard. The third is broken. The fourth is seen. The fifth is remembered. The sixth is opened.' None of the runes themselves are the answers. What connects all six?",
+      "question": "A rune-master writes six symbols. He tells you: \"The first is carried. The second is heard. The third is broken. The fourth is seen. The fifth is remembered. The sixth is opened.\" None of the runes themselves are the answers. What connects all six?",
       "answer": "Language"
     },
     {
       "id": 12,
-      "question": "A raven carries a message: 4-1-7-3-2. The only clue is: 'The tree remembers from root to branch.' You are given: RAGNAROK. Take the letters in the given positions. What message do you get?",
+      "question": "A raven carries a message: 4-1-7-3-2. The only clue is: \"The tree remembers from root to branch.\" You are given: RAGNAROK. Take the letters in the given positions. What message do you get?",
       "answer": "RAONA"
     },
     {
       "id": 13,
-      "question": "You find four stones: JOTUNHEIM, HELHEIM, NIFLHEIM, NIDAVELLIR. Each has a number: JOTUNHEIM = 14, HELHEIM = 8, NIFLHEIM = 9, NIDAVELLIR = 11. The inscription says: 'The dead walk first. The frozen walk second. The giants walk last. The ones beneath the mountain walk between them. Take what each carries, not what each is.' What is the final number?",
+      "question": "You find four stones: JOTUNHEIM - HELHEIM - NIFLHEIM - NIDAVELLIR. Each has a number: JOTUNHEIM = 14, HELHEIM = 8, NIFLHEIM = 9, NIDAVELLIR = 11 The inscription says: \"The dead walk first. The frozen walk second. The giants walk last. The ones beneath the mountain walk between them. Take what each carries, not what each is.\" What is the final number?",
       "answer": "891411"
     },
     {
       "id": 14,
-      "question": "Two watched the realms. One flew east. One flew west. When Ragnarök began, only one carried every secret home. It wears the night upon its wings, yet is not darkness itself. What creature bears forgotten knowledge?",
+      "question": "Two watched the realms. One flew east. One flew west. When Ragnarok began, only one carried every secret home. It wears the night upon its wings, yet is not darkness itself. What creature bears forgotten knowledge?",
       "answer": "Raven"
     },
     {
@@ -529,23 +224,23 @@
     },
     {
       "id": 16,
-      "question": "GSV SLIHV SLFHV - A message was found beneath an old shield. The scribe left only one instruction: 'The alphabet has turned its back on itself.' What does the message say?",
+      "question": "GSV SLIHV SLFHV - A message was found beneath an old shield. The scribe left only one instruction: \"The alphabet has turned its back on itself.\" What does the message say?",
       "answer": "THE HORSE HOUSE"
     },
     {
       "id": 17,
-      "question": "A note reads: 'The answer is hidden in the first chapter.' Beside it: 1-4-1 / 3-5-2 / 2-4-1 / 4-4-8. The book's first chapter begins: 'The old tower stood above the village. Nobody entered it after sunset. Three ravens nested beneath its roof. Every winter the villagers heard something moving inside.' What word do the numbers indicate?",
+      "question": "A note reads: \"The answer is hidden in the first chapter.\" Beside it: 1-4-1 / 3-5-2 / 2-4-1 / 4-4-8. The book's first chapter begins: The old tower stood above the village. Nobody entered it after sunset. Three ravens nested beneath its roof. Every winter the villagers heard something moving inside. What word do the numbers indicate?",
       "answer": "STAR"
     },
     {
       "id": 18,
-      "question": "1649, 1688, 1917, 1789, 1848 - 'The first killed a king. The second limited one. The third ended one. The fourth removed one. The fifth frightened them all.' What connects the five numbers?",
+      "question": "1649, 1688, 1917, 1789, 1848 - \"The first killed a king. The second limited one. The third ended one. The fourth removed one. The fifth frightened them all.\" What connects the five numbers?",
       "answer": "Revolution"
     },
     {
       "id": 19,
       "question": "Three sisters weave every destiny. The first writes beginnings. The second writes choices. The last writes endings. Mortals meet these sisters every semester inside three scrolls bearing equal weight. Name the three sisters.",
-      "answer": "EXAMS"
+      "answer": "Exams"
     },
     {
       "id": 20,
@@ -554,7 +249,7 @@
     },
     {
       "id": 21,
-      "question": "Freyja weeps for her missing husband Óðr, and where her tears strike the earth, they do not turn to water but to something far more precious - a metal so soft that even Sköll's teeth could bend it, yet so coveted that gods and giants alike have gone to war over its shine.",
+      "question": "Freyja weeps for her missing husband Odr, and where her tears strike the earth, they do not turn to water but to something far more precious - a metal so soft that even Skoll's teeth could bend it, yet so coveted that gods and giants alike have gone to war over its shine.",
       "answer": "Gold"
     },
     {
@@ -564,12 +259,12 @@
     },
     {
       "id": 23,
-      "question": "Odin hung himself from Yggdrasil for nine days and nine nights, pierced by his own spear, sacrificing himself to himself, all to learn the secret language of the runes. If each day of his ordeal corresponded to one letter learned, and the runic alphabet he mastered had twenty-four characters total, how many days would the full alphabet have taken him at that same pace - assuming he learned in groups of three per sitting?",
+      "question": "Odin hung himself from Yggdrasil for nine days and nine nights, pierced by his own spear, sacrificing himself to himself, all to learn the secret language of the runes. If each day of his ordeal corresponded to one letter learned, and the runic alphabet he mastered had twenty-four characters total, how many days would the full alphabet have taken him at that same pace assuming he learned in groups of three per sitting?",
       "answer": "8"
     },
     {
       "id": 24,
-      "question": "When the wolf Fenrir finally breaks free, the sound of his howl is said to reach every corner of the Nine Realms at once - a frequency so specific that sound engineers name it the exact pitch of concert A, the note every orchestra tunes to before a symphony begins.",
+      "question": "When the wolf Fenrir finally breaks free, the sound of his howl is said to reach every corner of the Nine Realms at once a frequency so specific that sound engineers name it the exact pitch of concert A, the note every orchestra tunes to before a symphony begins.",
       "answer": "440 Hz"
     },
     {
@@ -584,8 +279,8 @@
     },
     {
       "id": 27,
-      "question": "The Norns weave fate at Yggdrasil's root, three sisters: Was, Is, Will-Be, absolute. If 'Skuld' means the future not yet spun, find a song whose title means the same. Search 'the future's not ours to see,' and name the singer whose voice made that line fly.",
-      "answer": "Que Sera, Sera - Doris Day"
+      "question": "The Norns weave fate at Yggdrasil's root, three sisters: Was, Is, Will-Be, absolute. If \"Skuld\" means the future not yet spun, find a song whose title means the same. Hint: search \"the future's not ours to see,\" and name the singer whose voice made that line fly.",
+      "answer": "\"Que Sera, Sera\" - Doris Day"
     },
     {
       "id": 28,
@@ -609,8 +304,8 @@
     },
     {
       "id": 32,
-      "question": "Four dwarven smiths brought offerings to the High Seat of Asgard to forge Surtr's bane:\n• Alvis brought pure gold, but refused to bring cold iron.\n• Dvalin brought twice the weight of whichever smith brought silver.\n• Sindri brought starmetal, which weighed less than gold but more than silver.\n• Brokk brought a metal that tarnishes in air, weighing exactly 12 ingots.\nThe weights of the four metal chests are 6, 12, 18, and 24 ingots. Which smith brought the 18-ingot tribute, and what metal did he offer?",
-      "answer": "Sindri"
+      "question": "Four dwarven smiths brought offerings to the High Seat of Asgard to forge Surtr's bane: Alvis brought pure gold, but refused to bring cold iron. Dvalin brought twice the weight of whichever smith brought silver. Sindri brought starmetal, which weighed less than gold but more than silver. Brokk brought a metal that tarnishes in air, weighing exactly 12 ingots. The weights of the four metal chests are 6, 12, 18, and 24 ingots. Which smith brought the 18-ingot tribute, and what metal did he offer?",
+      "answer": "Sindri, with Starmetal"
     },
     {
       "id": 33,
@@ -639,7 +334,7 @@
     },
     {
       "id": 38,
-      "question": "The Old Dial: 7-28-33-28-2. What word is hidden?",
+      "question": "The Old Dial: 7-2•8-3•3-2•8-2. What word is hidden?",
       "answer": "RUNE"
     },
     {
@@ -649,22 +344,22 @@
     },
     {
       "id": 40,
-      "question": "Begin where the saga breathes its first breath, for the opening word bears ancient weight. End where the verse seals the warrior's death, for the final word seals eternal fate. Compute the product of letter counts for the first and last words of each verse, then sum all products:\n• Three ravens circle branches overlooking misty fjords\n• He watches frost giants march across silent ice\n• Ancient horns echo warnings toward the realm\n• Runes glow beneath roots of the world ash\n• No mortal survives without wielding sacred steel",
+      "question": "Begin where the saga breathes its first breath, for the opening word bears ancient weight. End where the verse seals the warrior's death, for the final word seals eternal fate. Compute the product of letter counts for the first and last words of each verse, then sum all products:\nThree ravens circle branches overlooking misty fjords\nHe watches frost giants march across silent ice\nAncient horns echo warnings toward the realm\nRunes glow beneath roots of the world ash\nNo mortal survives without wielding sacred steel",
       "answer": "96"
     },
     {
       "id": 41,
-      "question": "In ancient times, nine realms hung balanced upon the World Ash. Yet the trickster god Loki fathered three monstrous children that the Allfather cast away: the wolf that swallowed the sun, the serpent that encircled the deep, and the ruler of the dead. Take the full name of the great wolf chained upon the island of Lyngvi. Count the syllables and letters that bind his true name. Shift the letters of the following dark prophecy backwards by the total number of letters in that beast's name to unveil the hidden realm:\nCiphertext: GYMGXJ",
-      "answer": "ASGARD"
+      "question": "In ancient times, nine realms hung balanced upon the World Ash. Yet the trickster god Loki fathered three monstrous children that the Allfather cast away: the wolf that swallowed the sun, the serpent that encircled the deep, and the ruler of the dead. Take the full name of the great wolf chained upon the island of Lyngvi. Count the syllables and letters that bind his true name. Shift the letters of the following dark prophecy backwards by the total number of letters in that beast's name to unveil the hidden realm: Ciphertext: GYMGXJ",
+      "answer": "Asgard"
     },
     {
       "id": 42,
-      "question": "On the threshold between Jotunheim and Nidavellir, a dwarven tablet displays this inscription: 'Three brothers strike the anvil in harmony: the first strikes 1 time, the second strikes 1 time, the third strikes 2 times. Every brother thereafter strikes with the sum of the three preceding strikes: 1, 1, 2, 4, 7, 13, 24.' Filter the secret inscription using the beats of this sacred dwarven sequence (using 1-based indexing). The letters you claim will name the true power of the forge.\nSecret Inscription: ODINSBLOODLINES WILLFALLFOREVER\nIndices: 1, 1, 2, 4, 7, 13, 24",
+      "question": "On the threshold between Jotunheim and Nidavellir, a dwarven tablet displays this inscription: \"Three brothers strike the anvil in harmony: the first strikes 1 time, the second strikes 1 time, the third strikes 2 times. Every brother thereafter strikes with the sum of the three preceding strikes: 1, 1, 2, 4, 7, 13, 24.\" Filter the secret inscription using the beats of this sacred dwarven sequence (using 1-based indexing). The letters you claim will name the true power of the forge. Secret Inscription: O D I N S B L O O D L I N E S W I L L F A L L F O R E V E R. Indices: 1, 1, 2, 4, 7, 13, 24",
       "answer": "OODNLNL"
     },
     {
       "id": 43,
-      "question": "Loki doesn't shout when he hears a suit 'take a minute this is a cryptic,' he is your answer but he carries not a key because he has a sue. Answer lower case. Search this for it is your answer. Let this flourish in your tongue, hugin inne munin. The all father makes no mistakes.",
+      "question": "Loki doesn't shout when he hears a suit \"take a minute this is a cryptic,\" he is your answer but he carries not a key because he has a sue. Answer lower case. Search this for it is your answer. Let this flourish in your tongue, hugin inne munin. The all father makes no mistakes.",
       "answer": "recollection"
     },
     {
@@ -689,7 +384,7 @@
     },
     {
       "id": 48,
-      "question": "The three Norns weave the threads of fate at the foot of Yggdrasil. They speak not in whole phrases, but in the arithmetic of letters where each rune holds its place in the alphabet. To find where the outdoor portal opens, calculate the word value of 'VALHALLA': take the letter sum of VALHALLA, subtract the number of realms that make up Yggdrasil, divide by the number of ravens perched on Odin's shoulder. What is the final number carved into the portal?",
+      "question": "The three Norns weave the threads of fate at the foot of Yggdrasil. They speak not in whole phrases, but in the arithmetic of letters where each rune holds its place in the alphabet. To find where the outdoor portal opens, calculate the word value of \"VALHALLA\": take the letter sum of VALHALLA, subtract the number of realms that make up Yggdrasil, divide by the number of ravens perched on Odin's shoulder. What is the final number carved into the portal?",
       "answer": "26"
     },
     {
@@ -705,21 +400,21 @@
     {
       "id": 51,
       "question": "Two hands met. One promised trust. The other promised safety. The promise was broken. When the chain finally closed, one hand did not return. No battle caused the wound. Whose hand was lost?",
-      "answer": "Týr"
+      "answer": "Tyr"
     },
     {
       "id": 52,
-      "question": "The Three Digits - a stone bears: 682 (one digit correct and in the right place), 614 (one digit correct but in the wrong place), 206 (two digits correct but in the wrong places), 738 (no digit correct), 780 (one digit correct but in the wrong place). What is the code?",
+      "question": "The Three Digits: a stone bears: 682 (one digit correct and in the right place), 614 (one digit correct but in the wrong place), 206 (two digits correct but in the wrong places), 738 (no digit correct), 780 (one digit correct but in the wrong place). What is the code?",
       "answer": "042"
     },
     {
       "id": 53,
-      "question": "The Whisper of Hel - a pale figure rises from Helheim, carrying a message stolen from the realm of the dead. Its tongue is frozen, and every word it speaks sounds wrong. The inscription beside it reads: 'The dead have walked thirteen steps backward. Bring every letter thirteen steps forward.' The figure whispers: gur eniraf - Where are your friends?",
+      "question": "The Whisper of Hel: a pale figure rises from Helheim, carrying a message stolen from the realm of the dead. Its tongue is frozen, and every word it speaks sounds wrong. The inscription beside it reads: \"The dead have walked thirteen steps backward. Bring every letter thirteen steps forward.\" The figure whispers: gur eniraf - Where are your friends?",
       "answer": "The ravens"
     },
     {
       "id": 54,
-      "question": "Take the letter sum of TYR. Divide by the number of realms hanging from Yggdrasil. Carved upon the gate are four runes: HIXG. Shift each rune forward through the alphabet by the number you found. What word unlocks the portal?",
+      "question": "Take the letter sum of TYR. Divide by the number of realms hanging from Yggdrasil. Carved upon the gate are four runes: HIX G. Shift each rune forward through the alphabet by the number you found. What word unlocks the portal?",
       "answer": "Open"
     },
     {
@@ -728,156 +423,5 @@
       "answer": "A broken promise"
     }
   ],
-  "hard": [
-    {
-      "id": 1,
-      "question": "The Norns' Thread - Three sisters weave me, yet none may stop me. One thread remains. One breath remains. The world ends before the next heartbeat. What time is written upon fate?",
-      "answer": "11:59"
-    },
-    {
-      "id": 2,
-      "question": "The Grey Between - Not light. Not dark. Not alive. Not dead. I am what remains after gods and monsters become dust. Name my six runes.",
-      "answer": "#808080"
-    },
-    {
-      "id": 3,
-      "question": "The Man Across the Years - 1952-1977-1982-1997. These are not birthdays. Each year produced a work featuring the same fictional character. The character has been portrayed in film, television, theatre and radio. One of the actors who played him was also famous for playing a vampire. Who is the character?",
-      "answer": "Sherlock Holmes"
-    },
-    {
-      "id": 4,
-      "question": "Sigyn's Bowl - Loki writhes beneath the earth, bound to a stone slab, venom dripping from the serpent above him drop by relentless drop. Sigyn catches what she can in her bowl, but the moment it overflows and scalds him raw, the ground itself flashes a color that no rainbow bridge would ever dare display - sickly, electric, entirely unnatural, six characters starting with a three and a nine.",
-      "answer": "#39FF14"
-    },
-    {
-      "id": 5,
-      "question": "The Outsider Among the Skalds - Huginn whispers thought; Muninn records memory. But an outsider spoke among the skalds with twisted, unnatural stress. Filter the runes: let common letters be of stone (A), and elevated caps be of blood (B). Every five breaths names the trickster. Cipher text: alL THe bORn warRIOrs FEll In bLooD",
-      "answer": "LOKI"
-    },
-    {
-      "id": 6,
-      "question": "The Nine Nights - To gain the wisdom of the secret well, Odin hung upon the windswept tree for nine full nights, pierced by his own spear. Turn the wheel of runes backward by the number of nights he bled to read the hall of the slain. Cipher text: EJUQJUUJ",
-      "answer": "VALHALLA"
-    },
-    {
-      "id": 7,
-      "question": "Sköll and Hati's Reflection - Sköll chases the sun; Hati pursues the moon. In their eternal reflection, the light of dawn flips into the dead of night. Look into the mirror where the first becomes the last, and read the doom that awaits the gods. Cipher text: SVOSVRN",
-      "answer": "HELHEIM"
-    },
-    {
-      "id": 8,
-      "question": "The Raven of Thought - Odin's ravens circle Midgard, returning at dusk to whisper what they have seen. Apply the mind of the raven of thought to reveal the end of days. Key: The raven of thought (6 letters) → HUGINN Cipher text: ZHOVIFUS",
-      "answer": "RAGNAROK"
-    },
-    {
-      "id": 9,
-      "question": "The Three Sacred Roots - Three ancient roots sink deep beneath the ash, Where fate is woven in a zig-zag flash. From the high branches where the eagle cries, Down to the serpents where the poison lies. Ascend, descend, across the three sacred realms, Lest the dark mist of Niflheim overwhelms. Unweave the three rows to speak the password. Cipher text: SEFRL ERTOYDAI CSDS",
-      "answer": "SECRETS OF YGGDRASIL"
-    },
-    {
-      "id": 10,
-      "question": "The Three Sentinels of Helheim - Three sentinels of Helheim guard the weapon cache: Hugin, Munin, and Ratatoskr. One always speaks truth. One always lies. One is a shapeshifter who alternates between truth and lie. When questioned, they hiss:\nHugin: 'Munin is a liar.'\nMunin: 'I am not the shapeshifter.'\nRatatoskr: 'Hugin is telling the truth.'\nIdentify who is the Truth-Teller, who is the Liar, and who is the Shapeshifter.",
-      "answer": "Truth-Teller: Ratatoskr, Liar: Munin, Shapeshifter: Hugin"
-    },
-    {
-      "id": 11,
-      "question": "The Floor of Fate - Odin gave his eye to Mimir's well for a single drink of wisdom, and some say he wept not for the pain but for the price. Count what remains then Heimdall's, the watchman who never blinks, never sleeps, forever scanning the Bifrost for the first sign of frost giants. Add to that the number of realms the World Tree cradles in its roots and branches. The final sum is not an answer it is a floor number in a building you have walked past a hundred times.",
-      "answer": "11"
-    },
-    {
-      "id": 12,
-      "question": "The Frost Giants' Forge - In a cavern deep beneath Utgard, the Frost Giants prepared their forge to craft weapons against Asgard. Upon the frozen anvil rested a slab of raw Star-Iron, thick and untainted. Beside it lay a horn of Troll-Bile, its stopper tightly corked and dripping cold poison. Yet the forge was dying. The Surtr-Ember had long burned down to gray ash, leaving the crucible cold. A tablet beside the furnace read: 'Dragon-Scales - awaiting shipment from Nidavellir.' On the cooling rack, the vessel of Glacial Water stood crystal clear, but the crucible of Manticore Venom had overturned, its poison dried and flaked into useless dust. In the weapon rack, the Runed Hilt was bound and ready, while the Silver Ingot was completely missing from its chest. The Frost Giant smith left instructions for the ritual binding:\nBind Star-Iron AND Surtr-Ember\nQuench with Glacial Water OR Manticore Venom\nTemper with Dragon-Scales AND Silver Ingot\nAnoint with Troll-Bile AND Runed Hilt\nIgnite with Surtr-Ember OR Dragon-Scales\nTreat available components as 1 and missing/depleted components as 0. Evaluate each step's logical condition (1 if fulfilled, 0 if not) to form a 5-bit binary number, then convert it to decimal.",
-      "answer": "10"
-    },
-    {
-      "id": 13,
-      "question": "The Mirror of the Norns - Look into the mirror of the Norns, where the first is transformed into the last, and the last into the first. A riddle carved upon the stone proclaims: 'In the mortal college of VIT, when hunger strikes during long coding vigils, the students do not summon the valkyries; they summon the sacred application built by CodeChef's guild.' Cipher text: KZXVIH",
-      "answer": "PAPERS"
-    },
-    {
-      "id": 14,
-      "question": "Surtr and Sinmara - As Surtr and Sinmara, one heart to another, let folks and arc be as those two. Your answer stands where Surtr would, for one heart is with the other and every heart is its own centre.",
-      "answer": "FORKS"
-    },
-    {
-      "id": 15,
-      "question": "The Path Through the Nine Realms - The Nine Realms conceal a path known only to those who can read the signs. Six realms mark the way. Find their order, and let the music reveal what lies beyond:\n• Where mist never lifts, and cold claims the land. (Niflheim)\n• Where the smallest hands forge the greatest treasures. (Nidavellir)\n• The realm beneath the gods, where mankind makes its home. (Midgard)\n• A land where flame rules and the ancient fire-born dwell. (Muspelheim)\n• Where beings of light dwell, brighter than mortal eyes can bear. (Alfheim)\n• The home of an older kind of god, tied to nature and prosperity. (Vanaheim)\nPlaylist: https://open.spotify.com/playlist/54GpQ2HCrAa5RUgLXQror5?si=442d5cb169a7424d",
-      "answer": "Niflheim, Nidavellir, Midgard, Muspelheim, Alfheim, Vanaheim"
-    },
-    {
-      "id": 16,
-      "question": "A weathered scroll recovered from the roots of the world tree bears this verse: 'Perilous winds whip across the stone facade, runes of ancient masters line each silent hall, pillars rise unyielding where scholars brave the storm.' The tablet concludes: 'Look upon the initials of the three verses to learn the sanctuary where scholars gather. Count every level of that stone bastion to learn the key. Shift the encrypted battle-call backward by that very count to unlock the true name of the guild.' Encrypted battle-call: JVKLJOLM",
-      "answer": "CodeChef"
-    },
-    {
-      "id": 17,
-      "question": "What is the word extracted from the following cipher (Hint: QWERTY Keyboard). Consider: - equates M, $ equates E, E equates R and so on. The cipher: @_Y $-*+~T*",
-      "answer": "CLUEMINATI"
-    },
-    {
-      "id": 18,
-      "question": "A vision across the Bifröst flickers, severed before its warning reaches Midgard: https://www.instagram.com/reel/DcLbcWtP (The link lies fractured, its final three glyphs consumed by ash). Restore the path by claiming the lost letters:\nThe first is the second letter of the alphabet, worn small and humble.\nThe second is the eleventh rune - the crown of a fallen king, bowed low in lowercase.\nThe third is the sovereign mark of Ragnarök, standing tall and capitalized in all its dread.\nRestore the sacred vision, let the cycle run, and proclaim the exact duration of the omen in seconds.",
-      "answer": "50 seconds"
-    },
-    {
-      "id": 19,
-      "question": "Anchor your steps upon the date when the hunt awakens in the mortal realm. From the present year, cast out the month magnified by our current edition, then strike away the day partitioned by that very same count. Which milestone year remains standing in the ash?",
-      "answer": "1986"
-    },
-    {
-      "id": 20,
-      "question": "The apothecary chamber smelled of dried moss and bitter roots. Upon the cold stone workbench, an open velvet pouch overflowed with dried Wolfsbane, and beside it, a corked flask of Moonwater shimmered clear to the brim. On the upper rack, a cluster of crimson Mandrake root hung drying in full view. Other shelves were bare. The clay bowl labeled Raven feathers held only grey dust, while a tag pinned to an empty wicker basket noted: 'Dragon scales gathering at next full moon.' Across the table, the glass vial for Grave moss lay cracked and dry, and a wooden tub meant for Frost salt had spilled hours ago, leaving only an empty rim. Before you stands the recipe for the Elixir of Warding. Each brewing step follows strict elemental logic: AND requires both reagents to be present in the workshop, while OR requires at least one. Evaluate the five brewing rites to discover the five-digit binary sequence, then translate it into decimal:\nBrew with Wolfsbane AND Moonwater\nInfuse with Raven feathers OR Dragon scales\nDissolve Frost salt AND Grave moss\nTemper with Mandrake root OR Raven feathers\nStir in Moonwater AND Grave moss",
-      "answer": "18"
-    },
-    {
-      "id": 21,
-      "question": "The All-Father seeks only the runes that can hold water without leaking. When carved upon the sacred stone in capital script, an ancient spirit measures the sealed chambers trapped within each name:\nLOKI holds 1\nODIN holds 2\nBALDR holds 5\nNow gaze upon the three great pillars of the realm and count their enclosed chambers:\nLet M be the chambers in MIDGARD\nLet V be the chambers in VALHALLA\nLet R be the chambers in RAGNAROK\nThe vault seal requires the final balance: (M × R) - V\nWhat number breaks the seal?",
-      "answer": "17"
-    },
-    {
-      "id": 22,
-      "question": "To bind the wolf who would swallow the sun, the dwarves wove a leash from six things that do not exist: the footfall of a cat, the beard of a woman, the roots of a mountain, the sinews of a bear, the breath of a fish, and the spittle of a bird. Count what does not exist. Then count the eyes Odin sacrificed to Mimir's well. Then count the ravens who fly each dawn and return each dusk. Read the three counts left to right, largest tradition first.",
-      "answer": "612"
-    },
-    {
-      "id": 23,
-      "question": "In the dwarven underground, the runes of power are not carved, but welded together from straight iron rods. Any curved metal melts in the forge, so only straight, unbending beams are counted:\nTYR is forged from 7 iron beams.\nLOKI is forged from 6 iron beams.\nThe master smith requires the combined count of beams used to weld the twin war horns of the cosmos: Find the total number of iron beams needed to construct: HEIMDALL + FENRIR. What is the total sum of iron beams?",
-      "answer": "35"
-    },
-    {
-      "id": 24,
-      "question": "As Ragnarök nears, the Bifröst opens to Asgard only in windows. It swings open at exactly 1:00 PM and stays open for 45 minutes, then shatters and stays closed for 45 minutes, repeating this cycle until it collapses forever at 4:00 PM. A watcher reaches the crossing at 1:20 PM and may attempt to cross only once. Of the following three moments - 1:50 PM, 2:40 PM, 3:30 PM - at which one could the watcher actually cross?",
-      "answer": "2:40 PM"
-    },
-    {
-      "id": 25,
-      "question": "Three sisters lend their name to every cipher that outlives them, but their name has been unwoven and scattered: SNRNO. Reweave it. Once rewoven, use it as the key that was never written down - the kind of key that shifts each letter by how far its twin sits in the alphabet, cycling as it goes. Apply it backward to the ash below, and read what burns beneath. Ash: PFZZKBB",
-      "answer": "#DC143C"
-    },
-    {
-      "id": 26,
-      "question": "I sleep around the world and mistake the horizon for my spine. The thunderer strikes me once. I answer once. Neither victory survives the exchange. Take the number of realms, multiply it by the number of deaths in our final meeting, then write the result as a colour that has never seen daylight.",
-      "answer": "#120000"
-    },
-    {
-      "id": 27,
-      "question": "Three women sit beneath the roots. One points backward. One points at the present. One points forward. But the cruelest of them does not tell you what will happen. She tells you that it has already been decided even when it has not happened yet. Take their initials, reverse them, and interpret them as a hexadecimal number.",
-      "answer": "FATE"
-    },
-    {
-      "id": 28,
-      "question": "I am a mouth without a face. I open for an army and close for a god. My hinges are made of time. My lock is made of fear. The key is hidden in the phrase: 'The end begins where the beginning ends.' Take the final letter of every word.",
-      "answer": "DEGTEG"
-    },
-    {
-      "id": 29,
-      "question": "I am killed by a hand that does not know what it holds. I return after everything burns. My death begins the winter, but my return begins the world. I am not the answer. My answer is the colour of something that can be mourned, remembered, and reborn.",
-      "answer": "#800080"
-    },
-    {
-      "id": 30,
-      "question": "Follow the burning name whispered by modern ink, down to the bright tongues that lick the ash of the cosmos, leaping onto the sacred trunk whose roots bind creation together. Count what was shattered, cradled in its boughs. https://en.wikipedia.org/wiki/Surtr Track number clue: 862943",
-      "answer": "9"
-    }
-  ]
+  "hard": []
 }
